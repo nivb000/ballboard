@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Balls</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body onkeyup="handleKey(event)" onload="initGame()">
+  <h1>Collect those Balls</h1>
+  <button onclick="startGame()">Start game</button>
+  <button onclick="initGame();startGame()">Restart game</button>
+  <h5> You Won 🏆</h5>
+  <h3>Balls Eats:</h3>
+  <audio src="assets/Shine Collect  - Sound Effect (HD).mp3"></audio>
+  <table>
+    <tbody class="board"></tbody>
+  </table>
+  <script src="js/util.js"></script>
+  <script src="js/app.js"></script>
+</body>
+
+</html>

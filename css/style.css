@@ -1,0 +1,22 @@
+body {background-color: black; color:white}
+
+.cell {width:40px; height:40px;text-align: center}
+.cell img {width:25px; height:auto}
+.floor {background-color: gray}
+.wall {background-color: brown}
+button{
+    width: 150px;
+    height: 50px;
+    color: aliceblue;
+    background-color: grey;
+    cursor: pointer;
+}
+button:hover{
+    background-color: brown;
+}
+
+h5{
+    display: none;
+    margin-left: 15px;
+    font-size: 25px;
+}
